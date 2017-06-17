@@ -161,17 +161,18 @@ public class LinkUi extends Fragment {
 		public void onClick(View v) {
 			Log.i(TAG, "start scan");
 			foundDevices.clear();			
-			//获得已配对的远程蓝牙设备的集合  
-            Set<BluetoothDevice> devices = mBluetoothAdapter.getBondedDevices();  
-            if(devices.size()>0){  
+			//Gets a collection of paired remote Bluetooth devices
+            Set<BluetoothDevice> devices = mBluetoothAdapter.getBondedDevices();
+			Log.e("OGTAGDEBUG::", "onClick: " +devices.size() );
+			if(devices.size()>0){
                 for(Iterator<BluetoothDevice> it = devices.iterator();it.hasNext();){  
                     BluetoothDevice device2 = (BluetoothDevice)it.next();  
-                    //打印出远程蓝牙设备的物理地址  
-                    System.out.println("已连接过的蓝牙设备:"+device2.getAddress()); 
-                    unpairDevice(device2);
+                    //Prints the physical address of the remote Bluetooth device
+                    System.out.println("Connected Bluetooth device:"+device2.getAddress());
+                   // unpairDevice(device2);
                 }  
             }else{  
-                System.out.println("还没有已配对的远程蓝牙设备！");  
+                System.out.println("There is no paired remote Bluetooth device yet！");
             }
 			
 			refreshList(); // 刷新列表
@@ -290,18 +291,18 @@ public class LinkUi extends Fragment {
 				BluetoothDevice device = intent.getParcelableExtra(BluetoothDevice.EXTRA_DEVICE);  
                 switch (device.getBondState()) {  
                 case BluetoothDevice.BOND_BONDING:  
-                    Log.d(TAG, "正在配对......");  
+                    Log.d(TAG, "Being paired......");
                     progressDialog.setMessage(Strings.getString(R.string.msg_paring));
                     progressDialog.show();
                     break;  
                 case BluetoothDevice.BOND_BONDED:  
-                    Log.d("BlueToothTestActivity", "完成配对");  
+                    Log.d("BlueToothTestActivity", "Complete match");
                     progressDialog.setMessage(Strings.getString(R.string.msg_paired));
                     progressDialog.show();
                     connect(device);//连接设备  
                     break;  
                 case BluetoothDevice.BOND_NONE:  
-                    Log.d(TAG, "取消配对");  
+                    Log.d(TAG, "Cancel match");
                 default:  
                     break;  
                 }  

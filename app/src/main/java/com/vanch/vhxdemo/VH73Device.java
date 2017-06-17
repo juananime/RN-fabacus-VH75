@@ -1546,6 +1546,8 @@ public class VH73Device {
 
 		int index = 1;
 		ArrayList<byte[]> epcs = new ArrayList<byte[]>();
+
+		Log.e("OGTAGDEBUG::", "parseListTagIDResult: " + epcs.size() );
 		for (int i = 0; i < len; i++) {
 			int ecpLen = data[index];
 			byte[] epc = new byte[ecpLen * 2];

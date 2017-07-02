@@ -61,12 +61,12 @@ constructor(props) {
 ```
 In order to get an array of the paired devices:
 ```javascript
-  RFID.getDevices(this.onDevicesDetected.bind(this));
+RFID.getDevices(this.onDevicesDetected.bind(this));
 ```
  
 To activate/deactivate scan process:
 ```javascript
- RFID.activateScan();
+RFID.activateScan();
 ```
  
 To add a callback for when the device is sending a tags ID's hash:

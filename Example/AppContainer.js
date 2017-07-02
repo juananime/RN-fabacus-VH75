@@ -38,10 +38,6 @@ class AppContainer extends Component {
 
     }
 
-    componentDidMount() {
-        // this.doFireBase();
-    }
-
     /**
      * RFID getDevices
      */
@@ -56,15 +52,11 @@ class AppContainer extends Component {
 
         console.log('onDevicesDetected :::: ',payload)
         this.devicesList.push(payload)
-
-        this.setState({devicesFound: true, connectedDevice:payload})
-
-        this.connectToDevice(payload.DeviceName)
+		this.setState({devicesFound: true, connectedDevice:payload})
+		this.connectToDevice(payload.DeviceName)
     }
 
     onTagReceived(payload){
-
-        // payload = {'SE84873414100000043434':'SE84873414100000043434','SE84873414100000043411':'SE84873414100000043411'}
 
         var array_keys = new Array();
         var array_values = new Array();
@@ -88,16 +80,11 @@ class AppContainer extends Component {
         });
     }
 
-    componentDidUpdate(prevProps, prevState){
-        // console.log('updated  ', this.state.dataSource)
-    }
 
     onDeviceConnectionStatusChanged(payload){
-        //console.log('DEVICE CONNECTION STATUS  :::: ',payload);
         this.setState({statusConnection:payload.status})
         payload.status == 'CONNECTING_OK'? this.setState({connected:true}):this.setState({connected:false})
-
-    }
+	}
 
     onDeviceScanningStatusChanged(payload){
         payload.scanningStatus === 'ON'? this.setState({isScanning:true}): this.setState({isScanning:false});
@@ -107,9 +94,11 @@ class AppContainer extends Component {
     connectToDevice(deviceName){
         RFID.connect(deviceName);
     }
+    
     startStopScan(){
         RFID.activateScan();
     }
+    
     renderScanBtn(){
         if(this.state.connected){
             return(
@@ -160,11 +149,6 @@ class AppContainer extends Component {
 
 const styles = StyleSheet.create({
 
-    base: {
-
-
-
-    },
     separator:{
         height:10,
         backgroundColor:'transparent',

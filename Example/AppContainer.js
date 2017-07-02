@@ -38,18 +38,18 @@ class AppContainer extends Component {
 
     }
 
-    /**
+	/**
      * RFID getDevices
      */
-    getDevices() {
-        console.log('getDevices :::: ')
+	getDevices() {
+		console.log('getDevices :::: ')
         RFID.getDevices(this.onDevicesDetected.bind(this));
 	}
 
 	/**
 	* RFID getDevices callback, list of the devices paired and ready to connect
 	*/
-    onDevicesDetected(payload) {
+	onDevicesDetected(payload) {
 
         console.log('onDevicesDetected :::: ',payload)
         this.devicesList.push(payload)
@@ -133,9 +133,7 @@ class AppContainer extends Component {
     }
 
     render() {
-
-
-        return (
+		return (
             <View >
                 <TouchableHighlight onPress={() => {this.getDevices()}} style={styles.btn}>
                     <Text style={{color: 'white'}}>

@@ -49,12 +49,12 @@ import RFID from "rn-vh75-reader";
 constructor(props) {
         super(props);
         
-        // Assign the callbacks for the below processes:
-        
-        RFID.onTagReceived(this.onTagReceived.bind(this));
+        // Assign the callback to device connection satus:
         RFID.onDeviceConnectionStatusChanged(this.onDeviceConnectionStatusChanged.bind(this));
+        
+        // Assign the callback to device scanning satus:
         RFID.onDeviceScanningStatusChanged(this.onDeviceScanningStatusChanged.bind(this));
-        }
+ }
 
 ```
 In order to get an array of the paired devices:
@@ -65,4 +65,11 @@ In order to get an array of the paired devices:
 To activate/deactivate scan process:
 ```javascript
  RFID.activateScan();
- ```
+```
+ 
+ To add a callback for when the device is sending a tags ID's hash:
+```javascript
+RFID.onTagReceived(this.onTagReceived.bind(this));
+```
+
+

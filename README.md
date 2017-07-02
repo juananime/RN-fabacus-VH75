@@ -31,8 +31,27 @@
 
 
 ## Usage
+With the rn-vh75-reader plugin for React Native, you will be able to connect to a Bluetooth paired Vanch VH-75 device from Vanch Technologies.
+
+At the moment, the main features includes: 
+
+- Paired devices detection.
+- Connection to the choosen paired device.
+- Connection status retrieval.
+- Start and Stop scanning process.
+- Scanning process status retrieval.
+- Array of tags Id's rewtrieval.
+
+Basic init:
 ```javascript
-import FabacusVh75Reader from 'react-native-vh75-reader';
+import RFID from "rn-vh75-reader";
+
+constructor(props) {
+        super(props);
+        RFID.onTagReceived(this.onTagReceived.bind(this));
+        RFID.onDeviceConnectionStatusChanged(this.onDeviceConnectionStatusChanged.bind(this));
+        RFID.onDeviceScanningStatusChanged(this.onDeviceScanningStatusChanged.bind(this));
+        }
 
 // TODO: What do with the module?
 FabacusVh75Reader;

@@ -47,8 +47,8 @@ class AppContainer extends Component {
 	}
 
 	/**
-     * RFID getDevices callback, list of the devices paired and ready to connect
-     */
+	* RFID getDevices callback, list of the devices paired and ready to connect
+	*/
     onDevicesDetected(payload) {
 
         console.log('onDevicesDetected :::: ',payload)
@@ -58,8 +58,8 @@ class AppContainer extends Component {
     }
 
 	/**
-     * onTagReceived, retrieves a payload with tags ID's hash
-     */
+	* onTagReceived, retrieves a payload with tags ID's hash
+	*/
 	onTagReceived(payload){
 
         var array_keys = new Array();
@@ -94,9 +94,9 @@ class AppContainer extends Component {
 	}
 
 	/**
-     *  RFID.onDeviceScanningStatusChanged callback, retrieves payload scanningStatus
-     *  payload.scanningStatus => ON, OFF
-     */
+	*  RFID.onDeviceScanningStatusChanged callback, retrieves payload scanningStatus
+    *  payload.scanningStatus => ON, OFF
+    */
     onDeviceScanningStatusChanged(payload){
         payload.scanningStatus === 'ON'? this.setState({isScanning:true}): this.setState({isScanning:false});
 
@@ -110,10 +110,10 @@ class AppContainer extends Component {
         RFID.connect(deviceName);
     }
     
-    /**
-     * 	RFID.activateScan();
-     *  Start/Stop scanning process, it needs always to be connected for such action.
-     */
+	/**
+    * 	RFID.activateScan();
+    *  Start/Stop scanning process, it needs always to be connected for such action.
+    */
     startStopScan(){
         RFID.activateScan();
     }

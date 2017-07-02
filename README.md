@@ -21,7 +21,7 @@
 2. Append the following lines to `android/settings.gradle`:
   	```
   	include ':react-native-vh75-reader'
-  	project(':react-native-vh75-reader').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-vh75-reader/android')
+  	project(':react-native-vh75-reader').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vh75-reader/android')
   	```
 3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
   	```

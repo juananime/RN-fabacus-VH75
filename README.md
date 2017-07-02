@@ -74,4 +74,11 @@ To activate/deactivate scan process:
 RFID.onTagReceived(this.onTagReceived.bind(this));
 ```
 
+You may find illustrative the example app added in the Example folder.
+
+
+## License
+
+MIT. Copyright (c) [Fabacus Ltd](https://fabacus.com).
+
 

@@ -42,7 +42,7 @@ At the moment, the main features includes:
 - Connection status retrieval.
 - Start and Stop scanning process.
 - Scanning process status retrieval.
-- Array of tags Id's rewtrieval.
+- Array of tags Id's retrieval.
 
 Basic init:
 ```javascript

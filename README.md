@@ -69,7 +69,7 @@ To activate/deactivate scan process:
  RFID.activateScan();
 ```
  
- To add a callback for when the device is sending a tags ID's hash:
+To add a callback for when the device is sending a tags ID's hash:
 ```javascript
 RFID.onTagReceived(this.onTagReceived.bind(this));
 ```
@@ -79,6 +79,6 @@ You may find illustrative the example app added in the Example folder.
 
 ## License
 
-MIT. Copyright (c) [Fabacus Ltd](https://fabacus.com).
+Copyright (c) [Fabacus Ltd](https://fabacus.com).
 
 

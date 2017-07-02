@@ -33,6 +33,8 @@
 ## Usage
 With the rn-vh75-reader plugin for React Native, you will be able to connect to a Bluetooth paired Vanch VH-75 device from Vanch Technologies.
 
+Right now, just suporting Android platforms.
+
 At the moment, the main features includes: 
 
 - Paired devices detection.

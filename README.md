@@ -48,12 +48,21 @@ import RFID from "rn-vh75-reader";
 
 constructor(props) {
         super(props);
+        
+        // Assign the callbacks for the below processes:
+        
         RFID.onTagReceived(this.onTagReceived.bind(this));
         RFID.onDeviceConnectionStatusChanged(this.onDeviceConnectionStatusChanged.bind(this));
         RFID.onDeviceScanningStatusChanged(this.onDeviceScanningStatusChanged.bind(this));
         }
 
-// TODO: What do with the module?
-FabacusVh75Reader;
 ```
-  
+In order to get an array of the paired devices:
+```javascript
+  RFID.getDevices(this.onDevicesDetected.bind(this));
+```
+ 
+To activate/deactivate scan process:
+```javascript
+ RFID.activateScan();
+ ```

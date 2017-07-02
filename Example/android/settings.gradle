@@ -1,0 +1,5 @@
+rootProject.name = 'rn_vh75'
+include ':rn-vh75-reader'
+project(':rn-vh75-reader').projectDir = new File(rootProject.projectDir, '../node_modules/rn-vh75-reader/android')
+
+include ':app'

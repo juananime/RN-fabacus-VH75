@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/juanjimenez/fabacus/RN-VH75-Reader/rn_vh75/node_modules/rn-vh75-reader/android/src/main/assets"/><source path="/Users/juanjimenez/fabacus/RN-VH75-Reader/rn_vh75/node_modules/rn-vh75-reader/android/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/juanjimenez/fabacus/RN-VH75-Reader/rn_vh75/node_modules/rn-vh75-reader/android/src/debug/assets"/></dataSet></merger>

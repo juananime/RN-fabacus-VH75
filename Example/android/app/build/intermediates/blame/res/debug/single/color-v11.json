@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/juanjimenez/fabacus/RN-VH75-Reader/rn_vh75/android/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/juanjimenez/.android/build-cache/470cac64db472a679dfec799dea4e86e177b54e0/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/juanjimenez/fabacus/RN-VH75-Reader/rn_vh75/android/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/juanjimenez/.android/build-cache/470cac64db472a679dfec799dea4e86e177b54e0/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]

@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "/Users/juanjimenez/fabacus/RN-VH75-Reader/rn_vh75/android/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/juanjimenez/.android/build-cache/470cac64db472a679dfec799dea4e86e177b54e0/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/juanjimenez/fabacus/RN-VH75-Reader/rn_vh75/android/app/build/intermediates/res/merged/debug/anim/fade_in.xml",
+        "source": "/Users/juanjimenez/.android/build-cache/b2f59ce7b42cc08e4c900f67b17667fe17deb18e/output/res/anim/fade_in.xml"
+    },
+    {
+        "merged": "/Users/juanjimenez/fabacus/RN-VH75-Reader/rn_vh75/android/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/juanjimenez/.android/build-cache/470cac64db472a679dfec799dea4e86e177b54e0/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/juanjimenez/fabacus/RN-VH75-Reader/rn_vh75/android/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/juanjimenez/.android/build-cache/470cac64db472a679dfec799dea4e86e177b54e0/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/juanjimenez/fabacus/RN-VH75-Reader/rn_vh75/android/app/build/intermediates/res/merged/debug/anim/catalyst_push_up_in.xml",
+        "source": "/Users/juanjimenez/.android/build-cache/b2f59ce7b42cc08e4c900f67b17667fe17deb18e/output/res/anim/catalyst_push_up_in.xml"
+    },
+    {
+        "merged": "/Users/juanjimenez/fabacus/RN-VH75-Reader/rn_vh75/android/app/build/intermediates/res/merged/debug/anim/slide_down.xml",
+        "source": "/Users/juanjimenez/.android/build-cache/b2f59ce7b42cc08e4c900f67b17667fe17deb18e/output/res/anim/slide_down.xml"
+    },
+    {
+        "merged": "/Users/juanjimenez/fabacus/RN-VH75-Reader/rn_vh75/android/app/build/intermediates/res/merged/debug/anim/catalyst_push_up_out.xml",
+        "source": "/Users/juanjimenez/.android/build-cache/b2f59ce7b42cc08e4c900f67b17667fe17deb18e/output/res/anim/catalyst_push_up_out.xml"
+    },
+    {
+        "merged": "/Users/juanjimenez/fabacus/RN-VH75-Reader/rn_vh75/android/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/juanjimenez/.android/build-cache/470cac64db472a679dfec799dea4e86e177b54e0/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/juanjimenez/fabacus/RN-VH75-Reader/rn_vh75/android/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/juanjimenez/.android/build-cache/470cac64db472a679dfec799dea4e86e177b54e0/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/juanjimenez/fabacus/RN-VH75-Reader/rn_vh75/android/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/juanjimenez/.android/build-cache/470cac64db472a679dfec799dea4e86e177b54e0/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/juanjimenez/fabacus/RN-VH75-Reader/rn_vh75/android/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/juanjimenez/.android/build-cache/470cac64db472a679dfec799dea4e86e177b54e0/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/juanjimenez/fabacus/RN-VH75-Reader/rn_vh75/android/app/build/intermediates/res/merged/debug/anim/slide_up.xml",
+        "source": "/Users/juanjimenez/.android/build-cache/b2f59ce7b42cc08e4c900f67b17667fe17deb18e/output/res/anim/slide_up.xml"
+    },
+    {
+        "merged": "/Users/juanjimenez/fabacus/RN-VH75-Reader/rn_vh75/android/app/build/intermediates/res/merged/debug/anim/fade_out.xml",
+        "source": "/Users/juanjimenez/.android/build-cache/b2f59ce7b42cc08e4c900f67b17667fe17deb18e/output/res/anim/fade_out.xml"
+    },
+    {
+        "merged": "/Users/juanjimenez/fabacus/RN-VH75-Reader/rn_vh75/android/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/juanjimenez/.android/build-cache/470cac64db472a679dfec799dea4e86e177b54e0/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/juanjimenez/fabacus/RN-VH75-Reader/rn_vh75/android/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/juanjimenez/.android/build-cache/470cac64db472a679dfec799dea4e86e177b54e0/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/juanjimenez/fabacus/RN-VH75-Reader/rn_vh75/android/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/juanjimenez/.android/build-cache/470cac64db472a679dfec799dea4e86e177b54e0/output/res/anim/abc_slide_in_bottom.xml"
+    }
+]

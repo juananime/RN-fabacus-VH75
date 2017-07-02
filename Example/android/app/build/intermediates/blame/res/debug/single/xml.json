@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/juanjimenez/fabacus/RN-VH75-Reader/rn_vh75/android/app/build/intermediates/res/merged/debug/xml/chinese.xml",
+        "source": "/Users/juanjimenez/fabacus/RN-VH75-Reader/rn_vh75/node_modules/rn-vh75-reader/android/build/intermediates/bundles/default/res/xml/chinese.xml"
+    },
+    {
+        "merged": "/Users/juanjimenez/fabacus/RN-VH75-Reader/rn_vh75/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/Users/juanjimenez/.android/build-cache/b2f59ce7b42cc08e4c900f67b17667fe17deb18e/output/res/xml/preferences.xml"
+    },
+    {
+        "merged": "/Users/juanjimenez/fabacus/RN-VH75-Reader/rn_vh75/android/app/build/intermediates/res/merged/debug/xml/english.xml",
+        "source": "/Users/juanjimenez/fabacus/RN-VH75-Reader/rn_vh75/node_modules/rn-vh75-reader/android/build/intermediates/bundles/default/res/xml/english.xml"
+    }
+]

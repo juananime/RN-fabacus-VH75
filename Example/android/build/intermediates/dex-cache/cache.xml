@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/juanjimenez/fabacus/RN-VH75-Reader/rn_vh75/node_modules/rn-vh75-reader/android/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="88249cd269e148f277d4e82e5124cddb39f28a06">
+        <dex dex="/Users/juanjimenez/fabacus/RN-VH75-Reader/rn_vh75/android/app/build/intermediates/pre-dexed/debug/classes_cfa6c71ee4ee83d4f017255a82a6144c77c6fcee.jar" />
+    </item>
+
+</items>

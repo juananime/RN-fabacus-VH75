@@ -1,0 +1,4 @@
+#Mon Jun 26 10:42:42 CEST 2017
+base.0=/Users/juanjimenez/fabacus/RN-VH75-Reader/rn_vh75/android/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2
+renamed.0=classes.dex
+file.0=/Users/juanjimenez/fabacus/RN-VH75-Reader/rn_vh75/android/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex
